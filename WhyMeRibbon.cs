@@ -11,9 +11,9 @@ namespace WhyMe
 {
     public partial class WhyMeRibbon
     {
-        
+
         private void Ribbon1_Load(object sender, RibbonUIEventArgs e)
-        {            
+        {
         }
 
         private void button1_Click(object sender, RibbonControlEventArgs e)
@@ -42,5 +42,5 @@ namespace WhyMe
                 MessageBox.Show("Couldn't Find you. Perhaps you were BCC'd?", "Why Me?", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-    }    
+    }
 }
